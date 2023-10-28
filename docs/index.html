@@ -35,11 +35,27 @@
     p {}
 
     p.episode-description {
-      width: 50%;
+      /* width: 50%; */
     }
 
     div.inline {
       display: inline;
+    }
+
+    .social-icons {
+      float: right;
+      margin: 1em 1em;
+    }
+
+    .social-icons a {
+      text-decoration: none;
+    }
+
+    .embed-container {
+      position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;
+    }
+    .embed-container iframe, .embed-container object, .embed-container embed {
+      position: absolute; top: 0; left: 0; width: 100%; height: 100%;
     }
   </style>
 </head>
@@ -50,7 +66,7 @@
   </div>
   <div>
     <h1 style="float: left">Podcast</h1>
-    <div style="float: right; margin: 1em 1em;">
+    <div class="social-icons">
       <a href="https://www.youtube.com/playlist?list=PLvoksLlDWuooQH2x457HaOOELqgvXrheX"><svg role="img" height="28"
           width="28" aria-hidden="true" viewBox="0 0 28 28" data-encore-id="icon" class="Svg-sc-ytk21e-0 dmMoAF">
           <path
@@ -109,11 +125,11 @@
       touches on the definitions, applications and evolving nature of AI and the importance of enterprise architecture
       in managing AI technologies. We explore the role of innovation and the need for a structured approach to AI
       adoption, and that AI should be seen as a continuous process rather than a one-time transformation</p>
-    <iframe width="50%" height="50%"
+      <div class="embed-container"><iframe 
       src="https://www.youtube-nocookie.com/embed/h0zJ0tQ1ZO8?si=kKHggeEivWmwte56&amp;controls=1"
       title="YouTube video player" frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen></iframe>
+      allowfullscreen></iframe></div>
   </div>
   <hr width="60%" align="left" />
   <div>
@@ -127,10 +143,11 @@
       innovation processes, and more - always taking a deep dive to bring relevancy and perspective to leaders in the
       insurance industry. Whether you're a CIO, CTO, CDO or someone doing the hands-on work, this podcast aims to engage
       the community and make sure everyone has fun while learning together.</p>
-    <iframe width="50%" height="50%" src="https://www.youtube.com/embed/675TOqIrphg?si=V_o35QFQjQui9YKU&amp;controls=1"
+    <div class="embed-container"><iframe 
+      src="https://www.youtube.com/embed/675TOqIrphg?si=V_o35QFQjQui9YKU&amp;controls=1"
       title="YouTube video player" frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen></iframe>
+      allowfullscreen></iframe></div>
   </div>
 </body>
 
