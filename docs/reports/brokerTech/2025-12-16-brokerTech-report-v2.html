@@ -31,6 +31,10 @@
             margin: auto;
         }
 
+        .profile-photo {
+            float:left;
+        }
+
         h2.episode-title {}
 
         div {
@@ -82,6 +86,17 @@
             margin-inline-start: 0;
         }
 
+        hr.section-separator-narrow {
+            width: 60%;
+            border: none;
+            height: 1px;
+            /* Set the hr color */
+            color: #333;
+            /* old IE */
+            background-color: #333;
+            /* Modern Browsers */
+        }
+
         tr:nth-child(even) {
             background-color: #efefef;
         }
@@ -113,7 +128,7 @@
         <p style="float: right;">[<a href="2025-12-16-brokerTech-report.pdf">Print</a>]</p>
         <h1>BrokerTech Landscape Report</h1>
         <p>December 2025</p>
-        <p>By Sudhar Krishnamachary and Samir Ahmed</p>
+        <p>By <a href="#sudhar">Sudhar Krishnamachary</a> and <a href="#samir">Samir Ahmed</a></p>
         <h2>Introduction</h2>
         <div style="clear: left">
             <p>Over the past several years, the broker technology (“BrokerTech”) landscape has evolved rapidly, yet
@@ -452,42 +467,72 @@
         if there are areas you believe merit deeper exploration, let us know - we’re listening!</p>
     <hr>
     <h1>Authors</h1>
-    <p>
-        Sudhar Krishnamachary is, at heart, an Insurance Enthusiast, and a co-host of the PremiumBytes podcast. He is a
-        seasoned transformation leader with hands-on experience driving technology modernization in global enterprises.
-        He has nearly three decades of Insurance industry experience in software programming, solution architecture,
-        product development, marketing and sales functions. His professional background cuts across global carrier
-        operations, technology services consulting and core insurance software products. He serves as a member of
-        Rutgers University’s Customer Experience Advisory Board shaping their corporate programs curriculum. He is also
-        an advisor to two startups and engages in angel investing on minority founders. Besides Insurance, Sudhar is
-        passionate about tennis, education and serving the local senior communities. He holds a Bachelors in Computer
-        Engineering, an MBA from the Stern School of Business at New York University, and is a registered life and
-        health insurance agent in NJ & PA. He lives with his family in New Jersey!
-    </p>
-
-    <p>
-        Samir Ahmed is insurance technologist and a career consultant. He architects and delivers solutions that drive
-        real business results. He has a strong technical foundation from studying computer science and engineering. He
-        learned the insurance business from serving many life, health, and P&C insurers. Over the years, he has covered
-        all core and many auxiliary functions. As a consultant, he favors pragmatic approaches and practical solutions.
-        As an engineer, he favors systems-thinking and resilient designs. He helps clients think big and start small,
-        accumulating quick wins that add-up to big gains over time. He thrives in complex, high-pressure environments.
-        He loves empowering teams to achieve more together. He strives to build competency and self-sufficiency for
-        clients. He's passionate about the future of insurance. He invests directly in promising InsurTech startups and
-        as a limited partner in InsurTech-focused VC funds. He lives with his family in the metro Detroit area.
-    </p>
-
-    <p>PremiumBytes is a video podcast, where we shine a light on the unsung world of insurance technology leaders. We
-        have meaningful conversations about the evolving technology landscape inside the insurance industry. Let's
-        acknowledge it: being an insurance firm CIO, or Chief Information Officer, (and also CTO, or Chief Technology
-        Officer) is one of the toughest leadership roles in today's world. You've got a risk averse mindset baked into
-        the very fabric of the industry, a legacy estate that must complement the modern tech, and a talent crisis from
-        both the retiring side and next-gen recruiting side. And then you have the slow pace of innovation. We see it
-        because we're right there in the trenches with you, as consultants, day in and day out. Our mission is to deep
-        dive, have conversations that carry substance, offer practical insights, and help you validate and navigate the
-        relevant challenges of being an effective CIO in the insurance sector. So thank you for joining us on this
-        adventure.</p>
-    <h2></h2>
+    <div>
+        <h2 id="sudhar">Sudhar Krishnamachary</h2>
+        <img class="profile-photo" src="/assets/images/display-photo-sudhar.png"
+            alt="thumbnail headshot of Sudhar Krishnamachary">
+        <p>
+            Sudhar Krishnamachary is, at heart, an Insurance Enthusiast, and a co-host of the PremiumBytes podcast. He
+            is a
+            seasoned transformation leader with hands-on experience driving technology modernization in global
+            enterprises.
+            He has nearly three decades of Insurance industry experience in software programming, solution architecture,
+            product development, marketing and sales functions. His professional background cuts across global carrier
+            operations, technology services consulting and core insurance software products. He serves as a member of
+            Rutgers University’s Customer Experience Advisory Board shaping their corporate programs curriculum. He is
+            also
+            an advisor to two startups and engages in angel investing on minority founders. Besides Insurance, Sudhar is
+            passionate about tennis, education and serving the local senior communities. He holds a Bachelors in
+            Computer
+            Engineering, an MBA from the Stern School of Business at New York University, and is a registered life and
+            health insurance agent in NJ & PA. He lives with his family in New Jersey!
+        </p>
+    </div>
+    <hr class="section-separator-narrow">
+    <div>
+        <h2 id="samir">Samir Ahmed</h2>
+        <img class="profile-photo" src="/assets/images/display-photo-samir.png" alt="thumbnail headshot of Samir Ahmed">
+        <p>
+            Samir Ahmed is insurance technologist and a career consultant. He architects and delivers solutions that
+            drive
+            real business results. He has a strong technical foundation from studying computer science and engineering.
+            He
+            learned the insurance business from serving many life, health, and P&C insurers. Over the years, he has
+            covered
+            all core and many auxiliary functions. As a consultant, he favors pragmatic approaches and practical
+            solutions.
+            As an engineer, he favors systems-thinking and resilient designs. He helps clients think big and start
+            small,
+            accumulating quick wins that add-up to big gains over time. He thrives in complex, high-pressure
+            environments.
+            He loves empowering teams to achieve more together. He strives to build competency and self-sufficiency for
+            clients. He's passionate about the future of insurance. He invests directly in promising InsurTech startups
+            and
+            as a limited partner in InsurTech-focused VC funds. He lives with his family in the metro Detroit area.
+        </p>
+    </div>
+    <hr>
+    <div>
+        <h1>About PremiumBytes</h1>
+        <img class="profile-photo" src="/assets/images/LinkedIn-profile.png" alt="thumbnail logo of PremiumBytes">
+        <p>PremiumBytes is a video podcast, where we shine a light on the unsung world of insurance technology leaders.
+            We
+            have meaningful conversations about the evolving technology landscape inside the insurance industry. Let's
+            acknowledge it: being an insurance firm CIO, or Chief Information Officer, (and also CTO, or Chief
+            Technology
+            Officer) is one of the toughest leadership roles in today's world. You've got a risk averse mindset baked
+            into
+            the very fabric of the industry, a legacy estate that must complement the modern tech, and a talent crisis
+            from
+            both the retiring side and next-gen recruiting side. And then you have the slow pace of innovation. We see
+            it
+            because we're right there in the trenches with you, as consultants, day in and day out. Our mission is to
+            deep
+            dive, have conversations that carry substance, offer practical insights, and help you validate and navigate
+            the
+            relevant challenges of being an effective CIO in the insurance sector. So thank you for joining us on this
+            adventure.</p>
+    </div>
 
 </body>
 
